@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.logo{
+    font-size: 3rem;
+}
+
+.input{
+    display: flex;
+    gap: 2rem;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.row{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
